@@ -261,9 +261,8 @@ canvas{
 
 #top-banner {
   position: absolute;
-  top: 15%;
-  background: #00000067;
-  height: 120px;
+  top: 10%;
+    background: rgba(0, 0, 0, 0.802);
   width: 100%;
   transform: translate(100%);
   opacity: 0;
@@ -303,4 +302,18 @@ video::-webkit-media-controls { /* Works only on Chrome-based browsers */
 
 .block-content {
   max-width: 400px;
+}
+
+.block-text {
+  padding: 2rem;
+}
+
+.block-text:nth-of-type(2) {
+  padding: 2rem 4rem;
+  border-right: #9292922d 2px solid;
+  border-left: #9292922d 2px solid;
+}
+
+#top-banner>.block-text>.text-small:first-child{
+    margin-bottom: 1rem;
 }
